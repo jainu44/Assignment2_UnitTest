@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment2
 {
+
     class TriangleSolver
     {
         public static string Analyze(
