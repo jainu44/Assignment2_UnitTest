@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment2
 {
-
-    class TriangleSolver
+    public static class TriangleSolver
     {
         public static string Analyze(
             int Edge1, 
@@ -23,7 +22,7 @@ namespace Assignment2
                
                 if ((Edge1 == Edge2) && (Edge2 == Edge3))
                 {
-                    result = "This is a Equilateral Triangle";
+                    result = "This is a Equilateral Triangle.";
                 }
                 else if ((Edge1 == Edge2) || (Edge2 == Edge3) || (Edge3 == Edge1))
                 {
