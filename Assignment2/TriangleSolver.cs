@@ -18,6 +18,9 @@ namespace Assignment2
 
             if ((Edge1 + Edge2) > Edge3 && (Edge2 + Edge3) > Edge1 && (Edge3 + Edge1) > Edge2)
             {
+                Console.WriteLine("");
+                Console.WriteLine("This Triangle is a Valid one.");
+               
                 if ((Edge1 == Edge2) && (Edge2 == Edge3))
                 {
                     result = "This is a Equilateral Triangle";
